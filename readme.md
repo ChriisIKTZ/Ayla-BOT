@@ -208,7 +208,6 @@ Após adicionar AYLA ao seu servidor:
 
 ---
 
-
 ### 🎫 Sistema de Tickets & Suporte
 
 <div align="center">
@@ -284,6 +283,8 @@ Staff: !fechar
 AYLA: ⚠️ Ticket será fechado em 5 segundos...
 [Canal deletado]
 ```
+
+---
 
 ### 💰 Sistema de Economia
 
