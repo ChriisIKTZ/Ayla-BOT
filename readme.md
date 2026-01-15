@@ -1,4 +1,80 @@
-# 🤖 AYLA - Seu Bot Assistente no Discord
+### 🎫 Sistema de Tickets & Suporte
+
+<div align="center">
+
+#### **Sistema completo de atendimento com canais privados e logs!**
+
+</div>
+
+#### 🎟️ Para Usuários
+
+**Abrir Ticket:**
+1. Reaja com ⚙️ na mensagem de suporte
+2. Canal privado criado automaticamente
+3. Apenas você e a staff podem ver
+4. Descreva seu problema
+
+**Fechar Ticket:**
+```
+!fechar
+```
+
+#### 👮 Para Staff
+
+```
+!setupticket              Configurar sistema (Admin)
+!claim                    Assumir atendimento do ticket
+!add @usuario             Adicionar alguém ao ticket
+!remove @usuario          Remover alguém do ticket
+!tickets                  Ver todos os tickets ativos
+!fechar                   Fechar o ticket atual
+```
+
+#### ⚙️ Como Configurar
+
+1. **Criar canal de logs:**
+   - Nome sugerido: `🖨️-logs` ou qualquer canal com "logs"
+
+2. **Configurar sistema:**
+   ```
+   !setupticket
+   ```
+
+3. **Membros podem abrir tickets:**
+   - Reagem com ⚙️ na mensagem
+   - Canal privado criado automaticamente
+
+#### 📋 Sistema de Logs Automático
+
+Registra automaticamente em canal com "logs" no nome:
+
+**Eventos Logados:**
+- 🚪 Entrada/saída de membros
+- 🎫 Tickets criados/fechados
+- 🔵 Tickets assumidos por staff
+- 🛡️ Ações de moderação (futuro)
+
+#### 💡 Exemplo de Ticket
+
+```
+Usuário: [Reage com ⚙️]
+
+AYLA: ✅ Seu ticket foi criado! #ticket-0001
+
+[No canal #ticket-0001]
+AYLA: 🎫 Ticket #0001
+      Olá @Usuário! Descreva seu problema.
+      
+Staff: !claim
+AYLA: ✅ @Staff está atendendo este ticket!
+
+[Após resolver]
+Staff: !fechar
+AYLA: ⚠️ Ticket será fechado em 5 segundos...
+[Canal deletado]
+```
+
+---# 🤖 AYLA - Seu Bot Assistente no Discord
 
 <div align="center">
 
@@ -33,6 +109,11 @@
 - 📊 **Rankings e Estatísticas** de membros
 - 🎁 **Sistema de Recompensas** diárias
 - 💬 **Saudações Personalizadas** e interativas
+- 🎫 **Sistema de Tickets** para suporte com logs
+- ⚙️ **Configuração Completa** - Personalize cada servidor
+- 📋 **Logs Automáticos** - Registre todas as ações
+- 🔧 **Prefixo Customizável** - Escolha o seu
+- 🔒 **Dados Separados** - 100% isolado por servidor
 
 ---
 
@@ -52,11 +133,32 @@ Após adicionar AYLA ao seu servidor:
 
 1. ✅ AYLA enviará uma mensagem de boas-vindas
 2. ✅ Use `!ajuda` para ver todos os comandos
-3. ✅ Configure um canal com **"geral"** no nome para anúncios (aceita emojis!)
-4. ✅ Certifique-se que o cargo da AYLA está no topo da hierarquia
-5. ✅ Pronto! Comece a usar os comandos
+3. ✅ Use `!config` para personalizar funcionalidades
+4. ✅ Configure um canal com **"geral"** no nome para anúncios (aceita emojis!)
+5. ✅ Configure um canal com **"logs"** para registros (opcional)
+6. ✅ Certifique-se que o cargo da AYLA está no topo da hierarquia
+7. ✅ Pronto! Comece a usar os comandos
 
-**Prefixo padrão:** `!` (exclamação)
+**Prefixo padrão:** `!` (exclamação) - *Pode ser alterado com `!config prefix`*
+
+#### 🎯 Configuração Recomendada
+
+```bash
+# 1. Ver configurações atuais
+!config
+
+# 2. Configurar canal de logs (opcional)
+!config channel logs #🖨️-logs
+
+# 3. Configurar sistema de tickets (opcional)
+!setupticket
+
+# 4. Personalizar prefixo (opcional)
+!config prefix ?
+
+# 5. Desativar features não utilizadas (opcional)
+!config toggle economy  # Se não quiser economia
+```
 
 ---
 
@@ -88,11 +190,99 @@ Após adicionar AYLA ao seu servidor:
 !rank           Top 10 mais ricos
 !aniversarios   Próximos aniversários
 !inventario     Seu inventário
+!config         Configurações do servidor
 ```
 
 </td>
 </tr>
 </table>
+
+---
+
+### ⚙️ Sistema de Configuração *(Admin)*
+
+<div align="center">
+
+#### **Personalize a AYLA para seu servidor!**
+
+</div>
+
+#### 🔧 Comandos de Configuração
+
+```
+!config                          Ver todas as configurações
+!config toggle [feature]         Ativar/desativar funcionalidade
+!config prefix [novo]            Mudar prefixo do bot
+!config channel [tipo] #canal    Configurar canal específico
+!config list                     Listar todas as features
+!config reset                    Resetar configurações
+!config export                   Exportar configurações em JSON
+```
+
+#### 🎮 Features Configuráveis
+
+| Feature | Descrição | Padrão |
+|---------|-----------|--------|
+| **economy** | Sistema de economia (moedas, loja) | ✅ Ativo |
+| **birthdays** | Celebração de aniversários | ✅ Ativo |
+| **tickets** | Sistema de suporte/tickets | ✅ Ativo |
+| **moderation** | Comandos de moderação | ✅ Ativo |
+| **logs** | Logs automáticos | ✅ Ativo |
+| **welcome** | Mensagens de boas-vindas | ✅ Ativo |
+| **status** | Status personalizados | ✅ Ativo |
+
+#### 💡 Exemplos de Uso
+
+```bash
+# Ver configurações atuais
+!config
+
+# Desativar sistema de economia
+!config toggle economy
+
+# Mudar prefixo para "?"
+!config prefix ?
+
+# Configurar canal de logs
+!config channel logs #🖨️-logs
+
+# Listar todas as features
+!config list
+
+# Resetar tudo
+!config reset
+```
+
+#### 📺 Canais Configuráveis
+
+```
+!config channel logs #canal       Canal de logs
+!config channel welcome #canal    Canal de boas-vindas
+```
+
+#### 🎯 Cenários de Uso
+
+**Servidor Pequeno (Apenas Diversão):**
+```bash
+!config toggle economy      # Desativa economia
+!config toggle tickets      # Desativa tickets
+!config toggle moderation   # Desativa moderação
+```
+
+**Servidor Grande (Tudo Ativo):**
+```bash
+!config                     # Tudo ativo por padrão
+!config prefix !
+!config channel logs #logs
+```
+
+**Servidor Corporativo:**
+```bash
+!config toggle economy      # Desativa diversão
+!config toggle birthdays    # Ativa (celebrar equipe)
+!config toggle tickets      # Ativa (suporte interno)
+!config prefix >>
+```
 
 ---
 
@@ -303,13 +493,13 @@ Não! O sistema de economia é totalmente virtual e para diversão. As moedas n�
 <details>
 <summary><b>🔒 AYLA armazena dados pessoais?</b></summary>
 
-AYLA armazena apenas: ID do Discord, saldo de moedas, data de aniversário (se cadastrada) e inventário. Nenhuma informação pessoal sensível é coletada.
+AYLA armazena apenas: ID do Discord, saldo de moedas, data de aniversário (se cadastrada) e inventário. Nenhuma informação pessoal sensível é coletada. **Todos os dados são separados por servidor.**
 </details>
 
 <details>
 <summary><b>⚙️ Posso mudar o prefixo?</b></summary>
 
-No momento, o prefixo é fixo: `!` (exclamação). Estamos trabalhando em prefixos customizáveis!
+Sim! Use `!config prefix [novo]` para mudar. Exemplo: `!config prefix ?`
 </details>
 
 <details>
@@ -321,7 +511,7 @@ Sistema anti-spam avançado está em desenvolvimento e será adicionado em breve
 <details>
 <summary><b>📊 Quantos servidores podem usar AYLA?</b></summary>
 
-Não há limite! AYLA pode ser adicionada a quantos servidores você quiser.
+Não há limite! AYLA pode ser adicionada a quantos servidores você quiser. Cada servidor tem seus próprios dados e configurações.
 </details>
 
 <details>
@@ -336,21 +526,59 @@ Ainda não, mas está no nosso roadmap! Sistema de música está planejado para 
 Não! AYLA aceita qualquer canal que tenha "geral" no nome, incluindo com emojis. Exemplos: "💬-geral", "geral-chat", "🌍geral", etc.
 </details>
 
+<details>
+<summary><b>🔧 Posso desativar funcionalidades que não uso?</b></summary>
+
+Sim! Use `!config toggle [feature]` para ativar/desativar qualquer funcionalidade. Exemplos: economia, aniversários, tickets, etc.
+</details>
+
+<details>
+<summary><b>📋 Como funciona a separação de dados?</b></summary>
+
+Cada servidor tem seus próprios dados completamente isolados. Suas moedas no Servidor A são diferentes das moedas no Servidor B, mesmo sendo o mesmo usuário.
+</details>
+
+<details>
+<summary><b>🎫 Como configuro o sistema de tickets?</b></summary>
+
+1. Crie um canal com "logs" no nome
+2. Use `!setupticket`
+3. Membros podem reagir com ⚙️ para abrir tickets
+</details>
+
 ---
 
 ## 🎨 Personalização
 
 ### 👑 Comandos para Administradores
 
+#### ⚙️ Sistema de Configuração
+
+```
+!config                          Ver todas configurações
+!config toggle [feature]         Ativar/desativar funcionalidade
+!config prefix [novo]            Mudar prefixo
+!config channel [tipo] #canal    Configurar canal
+!config list                     Listar features disponíveis
+!config reset                    Resetar configurações
+!config export                   Exportar em JSON
+```
+
+**Exemplos práticos:**
+```bash
+!config toggle economy          # Desativa/ativa economia
+!config prefix ?                # Muda prefixo para ?
+!config channel logs #logs      # Define canal de logs
+!config list                    # Ver todas as features
+```
+
+#### 🎭 Status Personalizados
+
 ```
 !status [tipo] [mensagem]         Mudar status manualmente
 !addstatus [tipo] [mensagem]      Adicionar novo status à rotação
 !liststatus                       Ver todos os status
 !removestatus [número]            Remover um status
-
-!criarcargo                       Criar cargo de aniversariante
-!darcargo @usuario                Dar cargo manualmente
-!removercargo @usuario            Remover cargo manualmente
 ```
 
 **Tipos de status:** `playing`, `watching`, `listening`
@@ -362,6 +590,74 @@ Não! AYLA aceita qualquer canal que tenha "geral" no nome, incluindo com emojis
 !liststatus
 !removestatus 3
 ```
+
+#### 🎂 Gerenciamento de Aniversários
+
+```
+!criarcargo                       Criar cargo de aniversariante
+!darcargo @usuario                Dar cargo manualmente
+!removercargo @usuario            Remover cargo manualmente
+```
+
+#### 🎫 Sistema de Tickets
+
+```
+!setupticket                      Configurar sistema
+!tickets                          Ver todos ativos
+```
+
+---
+
+## 🎯 Casos de Uso por Tipo de Servidor
+
+### 🎮 Servidor de Gaming
+
+**Configuração Recomendada:**
+```bash
+!config prefix !
+!config toggle economy        # ✅ Ativo (competição)
+!config toggle birthdays      # ✅ Ativo (comunidade)
+!config toggle tickets        # ✅ Ativo (suporte)
+!setupticket
+```
+
+**Resultado:** Economia competitiva + suporte eficiente
+
+### 📚 Servidor Educacional
+
+**Configuração Recomendada:**
+```bash
+!config toggle economy        # ❌ Desativa (foco acadêmico)
+!config toggle birthdays      # ✅ Ativo (reconhecimento)
+!config toggle tickets        # ✅ Ativo (dúvidas)
+!config prefix ?
+```
+
+**Resultado:** Ambiente acadêmico + suporte para dúvidas
+
+### 👥 Comunidade Casual
+
+**Configuração Recomendada:**
+```bash
+!config prefix !
+!config toggle tickets        # ❌ Desativa (não precisa)
+# Resto tudo ativo (padrão)
+```
+
+**Resultado:** Diversão e interação sem complexidade
+
+### 💼 Servidor Corporativo
+
+**Configuração Recomendada:**
+```bash
+!config toggle economy        # ❌ Desativa (não profissional)
+!config toggle birthdays      # ✅ Ativo (celebrar equipe)
+!config toggle tickets        # ✅ Ativo (suporte interno)
+!config prefix >>
+!config channel logs #registros
+```
+
+**Resultado:** Profissional + celebrações + suporte interno
 
 ---
 
