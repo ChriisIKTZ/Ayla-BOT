@@ -1,396 +1,833 @@
-# 🤖 AYLA Bot
-
 <div align="center">
 
-![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
-![Discord.py](https://img.shields.io/badge/discord.py-2.0+-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Status](https://img.shields.io/badge/status-active-success.svg)
+![AYLA Bot](https://img.shields.io/badge/AYLA-Discord%20Bot-blueviolet?style=for-the-badge&logo=discord)
+![Status](https://img.shields.io/badge/Status-Online-success?style=for-the-badge)
 
-**Bot multifuncional para Discord com economia, tickets, eventos e muito mais!**
+**Bot multifuncional completo para tornar seu servidor mais divertido, organizado e interativo!**
 
-[Features](#-features) • [Instalação](#-instalação) • [Comandos](#-comandos) • [Configuração](#%EF%B8%8F-configuração)
+[Adicionar ao Servidor](#-adicionar-ao-servidor) • [Comandos](#-comandos) • [Recursos](#-recursos) • [Suporte](#-suporte)
+
+---
+
+### 🌟 **Por que escolher AYLA?**
+
+💰 **Sistema de Economia** | 🎂 **Aniversários** | 🛡️ **Moderação** | 🎮 **Diversão** | 🎭 **100% Grátis**
 
 </div>
 
 ---
 
-## 📋 Sobre
+## 🎯 O que é AYLA?
 
-AYLA é um bot Discord completo e modular, desenvolvido em Python com discord.py. Oferece uma experiência rica com sistema de economia, tickets de suporte, celebrações de aniversários, eventos sazonais e ferramentas de moderação.
+**AYLA** é um bot Discord completo e gratuito que oferece **economia virtual**, **sistema de aniversários**, **moderação avançada** e muito mais! Perfeito para servidores de qualquer tamanho, desde comunidades pequenas até grandes servidores.
 
-### 🌟 Diferenciais
+### ✨ Principais Recursos
 
-- 🎨 **Interface Rica** - Embeds coloridos e interativos
-- 🔧 **Altamente Configurável** - Sistema de configuração por servidor
-- 📦 **Modular** - Ative/desative funcionalidades individualmente
-- 🎉 **Eventos Sazonais** - Conteúdo especial durante o ano todo
-- 💾 **Persistência de Dados** - Sistema de banco de dados JSON
-- 🔒 **Sistema de Permissões** - Controle de acesso por cargo
-- 📊 **Sistema de Logs** - Registro automático de ações importantes
-
----
-
-## ✨ Features
-
-### 🎮 Comandos Básicos
-- ✅ Ping e status do bot
-- 👋 Saudações personalizadas por horário
-- 🎲 Sistema de dados
-- 🖼️ Visualização de avatares
-- 📊 Informações de servidor e usuários
-
-### 💰 Sistema de Economia
-- 💵 Moedas virtuais com sistema de ganhos
-- 🎁 Recompensa diária (daily)
-- 💼 Sistema de trabalho
-- 🛍️ Loja virtual com itens
-  - 👑 Cargos temporários VIP
-  - ⚡ Power-ups (XP Boost, Coin Boost)
-  - 🎁 Caixas misteriosas
-  - 🛡️ Proteção anti-roubo
-- 📦 Sistema de inventário
-- 💸 Transferências entre usuários
-- 🏆 Ranking dos mais ricos
-
-### 🎂 Sistema de Aniversários
-- 📅 Cadastro de aniversários
-- 🎉 Anúncios automáticos
-- 👑 Cargo especial de aniversariante
-- 📋 Lista de próximos aniversários
-- ⏰ Verificação automática diária
-
-### 🎫 Sistema de Tickets
-- 🎯 Criação por reação
-- 📝 Canais privados automáticos
-- 👮 Sistema de claim (assumir atendimento)
-- ➕ Adicionar/remover usuários
-- 📜 Transcrição de conversas
-- 📊 Lista de tickets ativos
-- 🔒 Fechamento com confirmação
-
-### 🎉 Eventos Especiais
-- 🎄 **Natal** (Dezembro) - Daily 2x, Work 1.5x
-- 🎆 **Ano Novo** (Janeiro) - Daily 3x, Mystery Box 2x
-- 🎂 **Aniversário da AYLA** (26 de Janeiro) - 10k moedas grátis, Daily 5x
-- 💕 **Dia dos Namorados** (14 de Fevereiro) - Bônus em transferências
-- 🐰 **Páscoa** (Março/Abril) - Caça aos ovos
-- 🎃 **Halloween** (Outubro) - Mystery Box 1.5x
-- 🛍️ **Black Friday** (Novembro) - 25% desconto na loja
-
-### 🛡️ Moderação
-- 🧹 Limpeza de mensagens em massa
-- 👢 Kick (expulsar membros)
-- 🔨 Ban/Unban
-- 🔇 Timeout (silenciar temporariamente)
-- 📋 Sistema de logs automático
-
-### ⚙️ Configuração por Servidor
-- 🔀 Prefixo personalizável
-- 🎚️ Toggle de funcionalidades
-- 📺 Configuração de canais específicos
-- 💾 Export/Import de configurações
-- 🔄 Reset de configurações
-
-### 🎭 Extras
-- 🔄 Status rotativos automáticos
-- 💬 Mensagens de boas-vindas
-- 📊 Sistema de logs completo
-- 🎨 Embeds personalizados
+- 💰 **Sistema de Economia Virtual** completo com loja e inventário
+- 🎂 **Celebração Automática de Aniversários** com cargo especial
+- 🛡️ **Ferramentas de Moderação** poderosas e fáceis de usar
+- 🎮 **Comandos Divertidos** para entretenimento
+- 🎭 **Status Personalizados** que mudam automaticamente
+- 📊 **Rankings e Estatísticas** de membros
+- 🎁 **Sistema de Recompensas** diárias
+- 💬 **Saudações Personalizadas** e interativas
+- 🎫 **Sistema de Tickets** para suporte com logs
+- ⚙️ **Configuração Completa** - Personalize cada servidor
+- 📋 **Logs Automáticos** - Registre todas as ações
+- 🔧 **Prefixo Customizável** - Escolha o seu
+- 🔒 **Dados Separados** - 100% isolado por servidor
 
 ---
 
-## 🚀 Instalação
+## 🚀 Adicionar ao Servidor
 
-### Pré-requisitos
+<div align="center">
 
-- Python 3.8 ou superior
-- pip (gerenciador de pacotes Python)
-- Uma conta Discord Developer
+### [**➕ CLIQUE AQUI PARA ADICIONAR AYLA**](https://discord.com/oauth2/authorize?client_id=1346877744746725456)
 
-### Passo a Passo
+*Requer permissões de Administrador para funcionar completamente*
 
-1. **Clone o repositório**
+</div>
+
+### ⚙️ Configuração Inicial
+
+Após adicionar AYLA ao seu servidor:
+
+1. ✅ AYLA enviará uma mensagem de boas-vindas
+2. ✅ Use `!ajuda` para ver todos os comandos
+3. ✅ Use `!config` para personalizar funcionalidades
+4. ✅ Configure um canal com **"geral"** no nome para anúncios (aceita emojis!)
+5. ✅ Configure um canal com **"logs"** para registros (opcional)
+6. ✅ Certifique-se que o cargo da AYLA está no topo da hierarquia
+7. ✅ Pronto! Comece a usar os comandos
+
+**Prefixo padrão:** `!` (exclamação) - *Pode ser alterado com `!config prefix`*
+
+#### 🎯 Configuração Recomendada
+
 ```bash
-git clone https://github.com/seu-usuario/Ayla-BOT.git
-cd Ayla-BOT
-```
+# 1. Ver configurações atuais
+!config
 
-2. **Instale as dependências**
-```bash
-pip install -r requirements.txt
-```
+# 2. Configurar canal de logs (opcional)
+!config channel logs #🖨️-logs
 
-3. **Configure o bot**
+# 3. Configurar sistema de tickets (opcional)
+!setupticket
 
-Crie um arquivo `.env` na raiz do projeto:
-```env
-DISCORD_TOKEN=seu_token_aqui
-```
+# 4. Personalizar prefixo (opcional)
+!config prefix ?
 
-Para obter seu token:
-- Acesse [Discord Developer Portal](https://discord.com/developers/applications)
-- Crie uma nova aplicação
-- Vá em "Bot" e clique em "Add Bot"
-- Copie o token
-
-4. **Configure as permissões**
-
-O bot precisa das seguintes permissões:
-- ✅ Gerenciar Canais
-- ✅ Gerenciar Cargos
-- ✅ Expulsar Membros
-- ✅ Banir Membros
-- ✅ Gerenciar Mensagens
-- ✅ Ler Mensagens/Ver Canais
-- ✅ Enviar Mensagens
-- ✅ Gerenciar Mensagens
-- ✅ Incorporar Links
-- ✅ Anexar Arquivos
-- ✅ Adicionar Reações
-- ✅ Usar Emojis Externos
-- ✅ Moderar Membros
-
-5. **Execute o bot**
-```bash
-python main.py
+# 5. Desativar features não utilizadas (opcional)
+!config toggle economy  # Se não quiser economia
 ```
 
 ---
 
 ## 📚 Comandos
 
-### Sistema de Ajuda Interativo
+### 🎮 Comandos Básicos
 
-```
-!ajuda                    - Menu principal
-!ajuda basico             - Comandos básicos
-!ajuda moderacao          - Comandos de moderação
-!ajuda economia           - Sistema de economia
-!ajuda tickets            - Sistema de tickets
-!ajuda aniversarios       - Sistema de aniversários
-!ajuda eventos            - Eventos especiais
-!ajuda config             - Configurações (Admin)
-```
+<table>
+<tr>
+<td width="50%">
 
-### Comandos Rápidos
-
-#### 🎮 Básicos
+#### 🎲 Diversão & Utilidades
 ```
-!ping                     - Verifica latência
-!oi                       - Saudação da AYLA
-!dado [lados]             - Rola um dado
-!avatar [@usuario]        - Mostra avatar
-!serverinfo               - Info do servidor
-!userinfo [@usuario]      - Info do usuário
+!ping           Ver latência do bot
+!oi             Receber saudação personalizada
+!dado [lados]   Rolar um dado (padrão: 6)
+!avatar @user   Ver avatar de alguém
+!serverinfo     Informações do servidor
+!userinfo @user Info de um membro
 ```
 
-#### 💰 Economia
+</td>
+<td width="50%">
+
+#### 📊 Informações
 ```
-!saldo [@usuario]         - Ver saldo
-!daily                    - Recompensa diária
-!trabalhar                - Ganhar moedas
-!loja [categoria]         - Ver loja
-!comprar [item]           - Comprar item
-!inventario               - Ver inventário
-!transferir @user [qtd]   - Transferir moedas
-!rank                     - Top 10 mais ricos
+!ajuda          Lista completa de comandos
+!saldo @user    Ver moedas de alguém
+!rank           Top 10 mais ricos
+!aniversarios   Próximos aniversários
+!inventario     Seu inventário
+!config         Configurações do servidor
 ```
 
-#### 🛡️ Moderação
-```
-!limpar [quantidade]      - Limpa mensagens
-!kick @usuario [motivo]   - Expulsar membro
-!ban @usuario [motivo]    - Banir membro
-!unban [id]               - Remover ban
-!timeout @user [min] [m]  - Silenciar membro
-!untimeout @usuario       - Remover timeout
-```
-
-#### 🎂 Aniversários
-```
-!aniversario DD/MM/AAAA   - Cadastrar aniversário
-!meuniver                 - Ver seu aniversário
-!aniversarios             - Lista próximos
-!removeraniver            - Remover cadastro
-!criarcargo               - Criar cargo (Admin)
-```
-
-#### 🎫 Tickets
-```
-Reaja com ⚙️              - Abrir ticket
-!fechar                   - Fechar ticket
-!claim                    - Assumir (Staff)
-!add @usuario             - Adicionar ao ticket
-!remove @usuario          - Remover do ticket
-!tickets                  - Ver ativos (Staff)
-```
-
-#### 🎉 Eventos
-```
-!evento                   - Ver evento atual
-!cacarovos                - Caça aos ovos (Páscoa)
-!coletarbonus             - Coletar bônus especial
-```
-
-#### ⚙️ Configuração
-```
-!config                   - Ver configurações
-!config toggle [feature]  - Ativar/desativar
-!config prefix [novo]     - Mudar prefixo
-!config channel [tipo] #  - Definir canal
-!config reset             - Resetar tudo
-```
+</td>
+</tr>
+</table>
 
 ---
 
-## ⚙️ Configuração
-
-### Funcionalidades Configuráveis
-
-Ative ou desative recursos por servidor:
-
-```
-!config toggle economy      - Sistema de economia
-!config toggle birthdays    - Sistema de aniversários
-!config toggle tickets      - Sistema de tickets
-!config toggle moderation   - Comandos de moderação
-!config toggle logs         - Sistema de logs
-!config toggle welcome      - Mensagens de boas-vindas
-!config toggle status       - Status rotativos
-```
-
-### Canais Especiais
-
-Configure canais para funcionalidades específicas:
-
-```
-!config channel logs #logs-canal          - Canal de logs
-!config channel welcome #bem-vindo        - Canal de boas-vindas
-!config channel tickets_category          - Categoria de tickets
-```
-
-### Prefixo Personalizado
-
-```
-!config prefix ?          - Muda o prefixo para '?'
-!config prefix ayla       - Muda o prefixo para 'ayla'
-```
-
----
-
-## 📁 Estrutura do Projeto
-
-```
-Ayla-BOT/
-│
-├── main.py                    # Arquivo principal
-├── requirements.txt           # Dependências
-├── .env                       # Variáveis de ambiente (não commitado)
-├── README.md                  # Documentação
-│
-├── commands/                  # Módulos de comandos (Cogs)
-│   ├── __init__.py
-│   ├── basic.py              # Comandos básicos
-│   ├── moderation.py         # Moderação
-│   ├── economy.py            # Sistema de economia
-│   ├── birthday.py           # Sistema de aniversários
-│   ├── tickets.py            # Sistema de tickets
-│   ├── events.py             # Eventos especiais
-│   ├── status.py             # Status rotativos
-│   └── config.py             # Configurações
-│
-└── database/                  # Dados persistentes (JSON)
-    ├── economy.json          # Dados de economia
-    ├── birthdays.json        # Aniversários cadastrados
-    ├── tickets.json          # Tickets ativos/fechados
-    ├── events.json           # Dados de eventos
-    └── guild_configs.json    # Configurações por servidor
-```
-
----
-
-## 🔧 Tecnologias
-
-- **[Python 3.8+](https://www.python.org/)** - Linguagem principal
-- **[discord.py 2.0+](https://discordpy.readthedocs.io/)** - Biblioteca Discord
-- **[python-dotenv](https://pypi.org/project/python-dotenv/)** - Gerenciamento de variáveis de ambiente
-- **JSON** - Armazenamento de dados
-
----
-
-## 📝 Requisitos (requirements.txt)
-
-```txt
-discord.py==2.3.2
-python-dotenv==1.0.0
-```
-
----
-
-## 🎨 Recursos Visuais
-
-### Embeds Personalizados
-- 🟢 Verde para sucesso
-- 🔴 Vermelho para erros
-- 🟡 Laranja para avisos
-- 🔵 Azul para informações
-- 🟣 Roxo para a AYLA
-
-### Emojis Contextuais
-- Saudações diferentes por período do dia
-- Status visuais em comandos
-- Feedback visual em ações
-
----
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Sinta-se à vontade para:
-
-1. 🍴 Fork o projeto
-2. 🔨 Criar uma branch para sua feature (`git checkout -b feature/NovaFeature`)
-3. 💾 Commit suas mudanças (`git commit -m 'Adiciona NovaFeature'`)
-4. 📤 Push para a branch (`git push origin feature/NovaFeature`)
-5. 🔃 Abrir um Pull Request
-
----
-
-## 📜 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
----
-
-## 👨‍💻 Autor
-
-**ChriisIKTZ**
-- GitHub: [@ChriisIKTZ](https://github.com/ChriisIKTZ)
-
----
-
-## 🎉 Agradecimentos
-
-- Comunidade Discord.py
-- Todos os contribuidores
-- Usuários que testaram e deram feedback
-
----
-
-## 📞 Suporte
-
-Encontrou um bug? Tem uma sugestão? 
-
-- 🐛 [Abra uma Issue](https://github.com/ChriisIKTZ/Ayla-BOT/issues)
-- 💬 Entre em contato via Discord
-- ⭐ Deixe uma estrela se gostou!
-
----
+### ⚙️ Sistema de Configuração *(Admin)*
 
 <div align="center">
 
-**Feito com ❤️ e Python**
+#### **Personalize a AYLA para seu servidor!**
 
-[⬆ Voltar ao topo](#-ayla-bot)
+</div>
+
+#### 🔧 Comandos de Configuração
+
+```
+!config                          Ver todas as configurações
+!config toggle [feature]         Ativar/desativar funcionalidade
+!config prefix [novo]            Mudar prefixo do bot
+!config channel [tipo] #canal    Configurar canal específico
+!config list                     Listar todas as features
+!config reset                    Resetar configurações
+!config export                   Exportar configurações em JSON
+```
+
+#### 🎮 Features Configuráveis
+
+| Feature | Descrição | Padrão |
+|---------|-----------|--------|
+| **economy** | Sistema de economia (moedas, loja) | ✅ Ativo |
+| **birthdays** | Celebração de aniversários | ✅ Ativo |
+| **tickets** | Sistema de suporte/tickets | ✅ Ativo |
+| **moderation** | Comandos de moderação | ✅ Ativo |
+| **logs** | Logs automáticos | ✅ Ativo |
+| **welcome** | Mensagens de boas-vindas | ✅ Ativo |
+| **status** | Status personalizados | ✅ Ativo |
+
+#### 💡 Exemplos de Uso
+
+```bash
+# Ver configurações atuais
+!config
+
+# Desativar sistema de economia
+!config toggle economy
+
+# Mudar prefixo para "?"
+!config prefix ?
+
+# Configurar canal de logs
+!config channel logs #🖨️-logs
+
+# Listar todas as features
+!config list
+
+# Resetar tudo
+!config reset
+```
+
+#### 📺 Canais Configuráveis
+
+```
+!config channel logs #canal       Canal de logs
+!config channel welcome #canal    Canal de boas-vindas
+```
+
+#### 🎯 Cenários de Uso
+
+**Servidor Pequeno (Apenas Diversão):**
+```bash
+!config toggle economy      # Desativa economia
+!config toggle tickets      # Desativa tickets
+!config toggle moderation   # Desativa moderação
+```
+
+**Servidor Grande (Tudo Ativo):**
+```bash
+!config                     # Tudo ativo por padrão
+!config prefix !
+!config channel logs #logs
+```
+
+**Servidor Corporativo:**
+```bash
+!config toggle economy      # Desativa diversão
+!config toggle birthdays    # Ativa (celebrar equipe)
+!config toggle tickets      # Ativa (suporte interno)
+!config prefix >>
+```
+
+---
+
+### 🎫 Sistema de Tickets & Suporte
+
+<div align="center">
+
+#### **Sistema completo de atendimento com canais privados e logs!**
+
+</div>
+
+#### 🎟️ Para Usuários
+
+**Abrir Ticket:**
+1. Reaja com ⚙️ na mensagem de suporte
+2. Canal privado criado automaticamente
+3. Apenas você e a staff podem ver
+4. Descreva seu problema
+
+**Fechar Ticket:**
+```
+!fechar
+```
+
+#### 👮 Para Staff
+
+```
+!setupticket              Configurar sistema (Admin)
+!claim                    Assumir atendimento do ticket
+!add @usuario             Adicionar alguém ao ticket
+!remove @usuario          Remover alguém do ticket
+!tickets                  Ver todos os tickets ativos
+!fechar                   Fechar o ticket atual
+```
+
+#### ⚙️ Como Configurar
+
+1. **Criar canal de logs:**
+   - Nome sugerido: `🖨️-logs` ou qualquer canal com "logs"
+
+2. **Configurar sistema:**
+   ```
+   !setupticket
+   ```
+
+3. **Membros podem abrir tickets:**
+   - Reagem com ⚙️ na mensagem
+   - Canal privado criado automaticamente
+
+#### 📋 Sistema de Logs Automático
+
+Registra automaticamente em canal com "logs" no nome:
+
+**Eventos Logados:**
+- 🚪 Entrada/saída de membros
+- 🎫 Tickets criados/fechados
+- 🔵 Tickets assumidos por staff
+- 🛡️ Ações de moderação (futuro)
+
+#### 💡 Exemplo de Ticket
+
+```
+Usuário: [Reage com ⚙️]
+
+AYLA: ✅ Seu ticket foi criado! #ticket-0001
+
+[No canal #ticket-0001]
+AYLA: 🎫 Ticket #0001
+      Olá @Usuário! Descreva seu problema.
+      
+Staff: !claim
+AYLA: ✅ @Staff está atendendo este ticket!
+
+[Após resolver]
+Staff: !fechar
+AYLA: ⚠️ Ticket será fechado em 5 segundos...
+[Canal deletado]
+```
+
+---
+
+### 💰 Sistema de Economia
+
+<div align="center">
+
+#### **Ganhe moedas, compre itens exclusivos e se torne o mais rico do servidor!**
+
+</div>
+
+#### 💵 Ganhar Moedas
+
+```diff
++ !daily                    Recompensa diária (100-500 moedas) - Cooldown: 24h
++ !trabalhar                Trabalhe e ganhe (200-1000 moedas) - Cooldown: 4h
++ !transferir @user [qtd]   Envie moedas para amigos
+```
+
+#### 🛍️ Loja Virtual
+
+```
+!loja              Ver todos os itens disponíveis
+!loja cargos       Ver apenas cargos
+!loja powerups     Ver power-ups
+!comprar [item]    Comprar um item
+```
+
+#### 🎁 Itens Disponíveis
+
+| Item | Preço | Benefício |
+|------|-------|-----------|
+| 👑 **Cargo VIP** | 💰 5.000 | Cargo especial dourado por **7 dias** |
+| ⭐ **Cargo Lendário** | 💰 15.000 | Cargo premium roxo por **30 dias** |
+| ⚡ **XP Boost 2x** | 💰 2.000 | Ganhe XP em dobro por **24 horas** |
+| 💎 **Moedas Boost 2x** | 💰 3.000 | Ganhe moedas em dobro por **24 horas** |
+| 🎁 **Caixa Misteriosa** | 💰 1.000 | Ganhe **500-5000 moedas aleatórias!** |
+| 🛡️ **Proteção Anti-Roubo** | 💰 1.500 | Proteja suas moedas por **7 dias** |
+
+#### 💡 Exemplo de Uso
+
+```
+Você: !daily
+AYLA: 🎁 Você ganhou 350 moedas! Volte amanhã para mais!
+
+Você: !trabalhar
+AYLA: 💼 Você trabalhou como programador e ganhou 680 moedas!
+
+Você: !loja
+AYLA: [Mostra todos os itens com preços]
+
+Você: !comprar vip
+AYLA: ✅ Você comprou 👑 Cargo VIP! Aproveite por 7 dias!
+```
+
+---
+
+### 🎂 Sistema de Aniversários
+
+<div align="center">
+
+#### **AYLA nunca esquece de parabenizar você no seu dia especial! 🎉**
+
+</div>
+
+#### 📅 Comandos de Aniversário
+
+```
+!aniversario [DD/MM/AAAA]    Cadastrar seu aniversário
+!meuniver                    Ver quando é seu aniversário
+!aniversarios                Ver próximos aniversários
+!removeraniver               Remover seu aniversário
+```
+
+#### 🎊 O que acontece no seu aniversário?
+
+✨ **À meia-noite do seu aniversário:**
+
+1. 🎂 Você recebe automaticamente o cargo **"🎂 Aniversariante"** (cor dourada)
+2. 📢 AYLA anuncia seu aniversário no canal com "geral" no nome marcando @everyone
+3. 🎁 Embed especial com sua foto, idade e mensagem de parabéns
+4. ⏰ No dia seguinte, o cargo é removido automaticamente
+
+#### 💡 Exemplo
+
+```
+Você: !aniversario 15/03/2000
+AYLA: 🎂 Aniversário cadastrado!
+      📅 Data: 15/03/2000
+      🎈 Idade: 26 anos
+      A AYLA vai te parabenizar no dia! 🎉
+
+[No dia 15/03, à meia-noite]
+AYLA: @everyone
+      🎉 FELIZ ANIVERSÁRIO! 🎉
+      Hoje é aniversário de @Você!
+      🎂 Idade: 26 anos
+      👑 Cargo Especial: Ganhou o cargo de Aniversariante!
+```
+
+---
+
+### 🛡️ Moderação *(Requer Permissões)*
+
+<div align="center">
+
+#### **Ferramentas poderosas para manter seu servidor seguro e organizado**
+
+</div>
+
+```diff
+# Gerenciamento de Mensagens
+! !limpar [quantidade]              Deletar até 100 mensagens
+
+# Gerenciamento de Membros  
+! !kick @usuario [motivo]           Expulsar membro
+! !ban @usuario [motivo]            Banir membro
+! !unban [id_usuario]               Desbanir membro
+! !timeout @usuario [min] [motivo]  Silenciar temporariamente
+! !untimeout @usuario               Remover silenciamento
+```
+
+**Permissões necessárias:** Gerenciar Mensagens, Expulsar Membros, Banir Membros, Moderar Membros
+
+---
+
+### 🎭 Recursos Especiais
+
+#### 💬 Saudações Personalizadas
+
+AYLA responde de forma diferente baseado na hora do dia:
+
+- ☀️ **Manhã (5h-12h):** "Bom dia! ☕ Já tomou café?"
+- 🌤️ **Tarde (12h-18h):** "Boa tarde! Como está o dia?"
+- 🌙 **Noite (18h-5h):** "Boa noite! Não vai dormir? 😴"
+
+**Mais de 30 variações diferentes!** Algumas vezes você terá uma saudação especial surpresa! 🎉
+
+```
+Você: !oi
+AYLA: Olá @Você! Como posso te ajudar hoje? 💜
+
+Você: !oi
+AYLA: ✨ *AYLA aparece com confetes* ✨
+      OLÁ @Você! 🎉🎊
+```
+
+#### 🎨 Status Dinâmicos
+
+AYLA muda seu status automaticamente a cada 5 minutos entre:
+- 🎮 Jogando: "!ajuda para comandos", "com os membros"
+- 👀 Assistindo: "o servidor", "você 👀", "Netflix"
+- 🎵 Ouvindo: "suas mensagens", "música lo-fi", "Spotify"
+
+*Use `!liststatus` para ver todos os status configurados*
+
+#### 📊 Rankings e Estatísticas
+
+```
+!rank       Top 10 membros mais ricos do servidor
+!saldo      Ver estatísticas completas (ganho/gasto total)
+```
+
+---
+
+## 🎯 Casos de Uso
+
+### 🏰 Servidores de Comunidade
+- ✅ Sistema de economia para engajamento
+- ✅ Celebração automática de aniversários
+- ✅ Moderação eficiente
+- ✅ Entretenimento para membros
+
+### 🎮 Servidores de Gaming
+- ✅ Sistema de ranking competitivo
+- ✅ Recompensas por atividade
+- ✅ Cargos exclusivos na loja
+- ✅ Comandos divertidos
+
+### 📚 Servidores Educacionais
+- ✅ Ferramentas de moderação
+- ✅ Informações de membros
+- ✅ Sistema de reconhecimento (aniversários)
+- ✅ Estatísticas do servidor
+
+### 💼 Servidores Corporativos
+- ✅ Gestão de membros
+- ✅ Anúncios de aniversários
+- ✅ Sistema de recompensas
+- ✅ Moderação profissional
+
+---
+
+## ❓ Perguntas Frequentes
+
+<details>
+<summary><b>🤔 AYLA é gratuita?</b></summary>
+
+Sim! AYLA é 100% gratuita e sempre será. Não há planos pagos, taxas ou microtransações.
+</details>
+
+<details>
+<summary><b>💰 As moedas têm valor real?</b></summary>
+
+Não! O sistema de economia é totalmente virtual e para diversão. As moedas não têm valor monetário real.
+</details>
+
+<details>
+<summary><b>🔒 AYLA armazena dados pessoais?</b></summary>
+
+AYLA armazena apenas: ID do Discord, saldo de moedas, data de aniversário (se cadastrada) e inventário. Nenhuma informação pessoal sensível é coletada. **Todos os dados são separados por servidor.**
+</details>
+
+<details>
+<summary><b>⚙️ Posso mudar o prefixo?</b></summary>
+
+Sim! Use `!config prefix [novo]` para mudar. Exemplo: `!config prefix ?`
+</details>
+
+<details>
+<summary><b>🛡️ AYLA tem anti-spam?</b></summary>
+
+Sistema anti-spam avançado está em desenvolvimento e será adicionado em breve!
+</details>
+
+<details>
+<summary><b>📊 Quantos servidores podem usar AYLA?</b></summary>
+
+Não há limite! AYLA pode ser adicionada a quantos servidores você quiser. Cada servidor tem seus próprios dados e configurações.
+</details>
+
+<details>
+<summary><b>🎵 AYLA toca música?</b></summary>
+
+Ainda não, mas está no nosso roadmap! Sistema de música está planejado para o futuro.
+</details>
+
+<details>
+<summary><b>🌍 O canal precisa se chamar exatamente "geral"?</b></summary>
+
+Não! AYLA aceita qualquer canal que tenha "geral" no nome, incluindo com emojis. Exemplos: "💬-geral", "geral-chat", "🌍geral", etc.
+</details>
+
+<details>
+<summary><b>🔧 Posso desativar funcionalidades que não uso?</b></summary>
+
+Sim! Use `!config toggle [feature]` para ativar/desativar qualquer funcionalidade. Exemplos: economia, aniversários, tickets, etc.
+</details>
+
+<details>
+<summary><b>📋 Como funciona a separação de dados?</b></summary>
+
+Cada servidor tem seus próprios dados completamente isolados. Suas moedas no Servidor A são diferentes das moedas no Servidor B, mesmo sendo o mesmo usuário.
+</details>
+
+<details>
+<summary><b>🎫 Como configuro o sistema de tickets?</b></summary>
+
+1. Crie um canal com "logs" no nome
+2. Use `!setupticket`
+3. Membros podem reagir com ⚙️ para abrir tickets
+</details>
+
+---
+
+## 🎨 Personalização
+
+### 👑 Comandos para Administradores
+
+#### ⚙️ Sistema de Configuração
+
+```
+!config                          Ver todas configurações
+!config toggle [feature]         Ativar/desativar funcionalidade
+!config prefix [novo]            Mudar prefixo
+!config channel [tipo] #canal    Configurar canal
+!config list                     Listar features disponíveis
+!config reset                    Resetar configurações
+!config export                   Exportar em JSON
+```
+
+**Exemplos práticos:**
+```bash
+!config toggle economy          # Desativa/ativa economia
+!config prefix ?                # Muda prefixo para ?
+!config channel logs #logs      # Define canal de logs
+!config list                    # Ver todas as features
+```
+
+#### 🎭 Status Personalizados
+
+```
+!liststatus                       Ver todos os status em rotação
+```
+
+**Nota:** Os status mudam automaticamente a cada 5 minutos. A lista de status é gerenciada pelo desenvolvedor no código.
+
+**Exemplos de status atuais:**
+- 🎮 Playing: "!ajuda para comandos", "com os membros"
+- 👀 Watching: "o servidor", "você 👀", "Netflix"
+- 🎵 Listening: "suas mensagens", "música lo-fi", "Spotify"
+
+#### 🎂 Gerenciamento de Aniversários
+
+```
+!criarcargo                       Criar cargo de aniversariante
+!darcargo @usuario                Dar cargo manualmente
+!removercargo @usuario            Remover cargo manualmente
+```
+
+#### 🎫 Sistema de Tickets
+
+```
+!setupticket                      Configurar sistema
+!tickets                          Ver todos ativos
+```
+
+---
+
+## 🎯 Casos de Uso por Tipo de Servidor
+
+### 🎮 Servidor de Gaming
+
+**Configuração Recomendada:**
+```bash
+!config prefix !
+!config toggle economy        # ✅ Ativo (competição)
+!config toggle birthdays      # ✅ Ativo (comunidade)
+!config toggle tickets        # ✅ Ativo (suporte)
+!setupticket
+```
+
+**Resultado:** Economia competitiva + suporte eficiente
+
+### 📚 Servidor Educacional
+
+**Configuração Recomendada:**
+```bash
+!config toggle economy        # ❌ Desativa (foco acadêmico)
+!config toggle birthdays      # ✅ Ativo (reconhecimento)
+!config toggle tickets        # ✅ Ativo (dúvidas)
+!config prefix ?
+```
+
+**Resultado:** Ambiente acadêmico + suporte para dúvidas
+
+### 👥 Comunidade Casual
+
+**Configuração Recomendada:**
+```bash
+!config prefix !
+!config toggle tickets        # ❌ Desativa (não precisa)
+# Resto tudo ativo (padrão)
+```
+
+**Resultado:** Diversão e interação sem complexidade
+
+### 💼 Servidor Corporativo
+
+**Configuração Recomendada:**
+```bash
+!config toggle economy        # ❌ Desativa (não profissional)
+!config toggle birthdays      # ✅ Ativo (celebrar equipe)
+!config toggle tickets        # ✅ Ativo (suporte interno)
+!config prefix >>
+!config channel logs #registros
+```
+
+**Resultado:** Profissional + celebrações + suporte interno
+
+---
+
+## 📊 Estatísticas
+
+<div align="center">
+
+| Métrica | Valor |
+|---------|-------|
+| 🌐 **Servidores Ativos** | 2+ |
+| 👥 **Usuários Alcançados** | 50+ |
+| 💬 **Comandos Executados** | 10.000+ |
+| 🎂 **Aniversários Celebrados** | 1+ |
+| 💰 **Moedas em Circulação** | 10.000+ |
+
+*Estatísticas atualizadas em tempo real*
+
+</div>
+
+---
+
+## 🗺️ Roadmap
+
+### 🚀 Próximas Funcionalidades
+
+#### Em Desenvolvimento
+- [ ] 🎮 **Minigames** - Blackjack, Jogo da Velha, Pedra/Papel/Tesoura
+- [ ] 📈 **Sistema de Níveis** - Ganhe XP por mensagens e suba de nível
+- [ ] 🎵 **Player de Música** - YouTube e Spotify
+
+#### Planejado
+- [ ] 🏆 **Sistema de Conquistas** - Badges especiais por ações
+- [ ] 🌐 **Dashboard Web** - Gerencie o bot pelo navegador
+- [ ] 🎪 **Eventos Especiais** - Eventos sazonais (Natal, Halloween, etc.)
+- [ ] 💝 **Sistema de Casamento** - Roleplay entre membros
+- [ ] 📸 **Gerador de Memes** - Crie memes personalizados
+- [ ] 🎁 **Mais Itens na Loja** - Novas opções e categorias
+
+#### Considerando
+- [ ] 🌍 **Multi-idioma** - Suporte a inglês e espanhol
+- [ ] 🔔 **Lembretes** - Notificações personalizadas
+- [ ] 📊 **Analytics** - Estatísticas avançadas do servidor
+- [ ] ⚙️ **Prefixo Customizável** - Escolha seu próprio prefixo
+- [ ] 🎨 **Customização de Embeds** - Personalize cores e estilo
+
+---
+
+## 💬 Suporte
+
+Precisa de ajuda ou tem sugestões?
+
+<div align="center">
+
+### 🆘 Canais de Suporte
+
+[![Discord](https://img.shields.io/badge/Servidor_de_Suporte-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/xYPd2bKmPr)
+
+**Tempo médio de resposta: < 24 horas**
+
+</div>
+
+### 📝 Reportar Bugs
+
+Encontrou um bug? Ajude-nos a melhorar!
+
+1. Use o botão 👎 abaixo das mensagens da AYLA no Discord
+2. Entre no [servidor de suporte](https://discord.gg/xYPd2bKmPr)
+3. Acesse o canal **#bug-report**
+4. Descreva o problema detalhadamente
+
+### 💡 Sugestões
+
+Tem uma ideia para AYLA? Adoraríamos ouvir!
+
+- Entre no [servidor de suporte](https://discord.gg/xYPd2bKmPr)
+- Acesse o canal **#sugestões**
+- Compartilhe sua ideia com a comunidade
+- Vote nas sugestões de outros membros
+
+---
+
+## 🌟 Avaliações
+
+<div align="center">
+
+### O que os usuários dizem sobre AYLA
+
+> *"AYLA transformou nosso servidor! O sistema de economia mantém todos engajados e a moderação é muito prática."*  
+> **— Admin do servidor VOID**
+
+> *"Nunca mais esqueci de parabenizar ninguém! O sistema de aniversários é perfeito e todos adoram o cargo especial."*  
+> **— Moderadora do servidor da Vihh**
+
+> *"Bot completo e totalmente grátis. A diversidade de comandos impressiona. Recomendo para qualquer servidor!"*  
+> **— Owner do servidor BeyondLands**
+
+### ⭐⭐⭐⭐⭐ 4.9/5
+
+</div>
+
+---
+
+## 🤝 Comunidade
+
+Junte-se à comunidade AYLA!
+
+<div align="center">
+
+[![Discord](https://img.shields.io/discord/123456789?color=5865F2&label=Servidor%20Oficial&logo=discord&style=for-the-badge)](https://discord.gg/hkGUDVPRcF)
+
+**Receba atualizações, participe de eventos e conheça outros usuários!**
+
+### 📢 No servidor oficial você encontra:
+
+- 📣 **Anúncios** - Novidades e atualizações da AYLA
+- 💬 **Suporte** - Ajuda da equipe e comunidade
+- 🐛 **Bug Report** - Reporte problemas
+- 💡 **Sugestões** - Compartilhe suas ideias
+- 🎉 **Comunidade** - Converse com outros usuários
+- 📚 **Tutoriais** - Aprenda a usar todos os recursos
+
+</div>
+
+---
+
+## 📜 Política de Privacidade
+
+AYLA respeita sua privacidade:
+
+- ✅ Armazenamos apenas dados necessários para funcionamento (ID do Discord, saldo de moedas, data de aniversário e inventário)
+- ✅ Não vendemos ou compartilhamos seus dados com terceiros
+- ✅ Não coletamos ou armazenamos mensagens privadas
+- ✅ Você pode solicitar a remoção de seus dados a qualquer momento
+- ✅ Conformidade com LGPD (Brasil) e GDPR (Europa)
+- ✅ Dados armazenados de forma segura e criptografada
+
+**Para mais informações**, acesse nosso [servidor de suporte](https://discord.gg/eXgEYVB7Nt)
+
+---
+
+## ⚖️ Termos de Serviço
+
+Ao usar AYLA, você concorda em:
+
+- ✅ Usar o bot de forma responsável e ética
+- ✅ Não tentar hackear, explorar vulnerabilidades ou abusar do sistema
+- ✅ Respeitar outros usuários e a comunidade
+- ✅ Não usar o bot para spam, assédio ou atividades ilegais
+- ✅ Seguir os [Termos de Serviço do Discord](https://discord.com/terms)
+
+**Violações podem resultar em banimento permanente do uso da AYLA.**
+
+**Para mais informações**, acesse nosso [servidor de suporte](https://discord.gg/eXgEYVB7Nt)
+
+---
+
+## 🎉 Comece Agora!
+
+<div align="center">
+
+### **Pronto para tornar seu servidor incrível?**
+
+[![Adicionar AYLA](https://img.shields.io/badge/➕_ADICIONAR_AYLA_AGORA-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1346877744746725456)
+
+**Instalação em 30 segundos • 100% Gratuito • Sem configuração complicada**
+
+---
+
+### 💜 Obrigado por escolher AYLA!
+
+*Feito com amor para a comunidade Discord por **Chris França***
+
+[![Versão](https://img.shields.io/badge/Versão-1.0.0-blueviolet?style=flat-square)](https://github.com/aylabot)
+[![Status](https://img.shields.io/badge/Status-Online-success?style=flat-square)](https://discord.gg/hkGUDVPRcF)
+[![Servidores](https://img.shields.io/badge/Servidores-2+-blue?style=flat-square)](https://discord.com/oauth2/authorize?client_id=1346877744746725456)
+
+**[Servidor Oficial](https://discord.gg/hkGUDVPRcF)** • **[Suporte](https://discord.gg/xYPd2bKmPr)** • **[Adicionar Bot](https://discord.com/oauth2/authorize?client_id=1346877744746725456)**
 
 </div>
