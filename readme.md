@@ -206,6 +206,9 @@ Após adicionar AYLA ao seu servidor:
 !config prefix >>
 ```
 
+---
+
+
 ### 🎫 Sistema de Tickets & Suporte
 
 <div align="center">
