@@ -437,7 +437,7 @@ AYLA muda seu status automaticamente a cada 5 minutos entre:
 - 👀 Assistindo: "o servidor", "você 👀", "Netflix"
 - 🎵 Ouvindo: "suas mensagens", "música lo-fi", "Spotify"
 
-*Administradores podem adicionar novos status com `!addstatus`!*
+*Use `!liststatus` para ver todos os status configurados*
 
 #### 📊 Rankings e Estatísticas
 
@@ -575,21 +575,15 @@ Cada servidor tem seus próprios dados completamente isolados. Suas moedas no Se
 #### 🎭 Status Personalizados
 
 ```
-!status [tipo] [mensagem]         Mudar status manualmente
-!addstatus [tipo] [mensagem]      Adicionar novo status à rotação
-!liststatus                       Ver todos os status
-!removestatus [número]            Remover um status
+!liststatus                       Ver todos os status em rotação
 ```
 
-**Tipos de status:** `playing`, `watching`, `listening`
+**Nota:** Os status mudam automaticamente a cada 5 minutos. A lista de status é gerenciada pelo desenvolvedor no código.
 
-**Exemplos:**
-```
-!status playing Minecraft
-!addstatus watching anime
-!liststatus
-!removestatus 3
-```
+**Exemplos de status atuais:**
+- 🎮 Playing: "!ajuda para comandos", "com os membros"
+- 👀 Watching: "o servidor", "você 👀", "Netflix"
+- 🎵 Listening: "suas mensagens", "música lo-fi", "Spotify"
 
 #### 🎂 Gerenciamento de Aniversários
 
@@ -830,7 +824,7 @@ Ao usar AYLA, você concorda em:
 
 *Feito com amor para a comunidade Discord por **Chris França***
 
-[![Versão](https://img.shields.io/badge/Versão-1.2.0-blueviolet?style=flat-square)](https://github.com/aylabot)
+[![Versão](https://img.shields.io/badge/Versão-1.0.0-blueviolet?style=flat-square)](https://github.com/aylabot)
 [![Status](https://img.shields.io/badge/Status-Online-success?style=flat-square)](https://discord.gg/hkGUDVPRcF)
 [![Servidores](https://img.shields.io/badge/Servidores-2+-blue?style=flat-square)](https://discord.com/oauth2/authorize?client_id=1346877744746725456)
 
