@@ -1,81 +1,3 @@
-### 🎫 Sistema de Tickets & Suporte
-
-<div align="center">
-
-#### **Sistema completo de atendimento com canais privados e logs!**
-
-</div>
-
-#### 🎟️ Para Usuários
-
-**Abrir Ticket:**
-1. Reaja com ⚙️ na mensagem de suporte
-2. Canal privado criado automaticamente
-3. Apenas você e a staff podem ver
-4. Descreva seu problema
-
-**Fechar Ticket:**
-```
-!fechar
-```
-
-#### 👮 Para Staff
-
-```
-!setupticket              Configurar sistema (Admin)
-!claim                    Assumir atendimento do ticket
-!add @usuario             Adicionar alguém ao ticket
-!remove @usuario          Remover alguém do ticket
-!tickets                  Ver todos os tickets ativos
-!fechar                   Fechar o ticket atual
-```
-
-#### ⚙️ Como Configurar
-
-1. **Criar canal de logs:**
-   - Nome sugerido: `🖨️-logs` ou qualquer canal com "logs"
-
-2. **Configurar sistema:**
-   ```
-   !setupticket
-   ```
-
-3. **Membros podem abrir tickets:**
-   - Reagem com ⚙️ na mensagem
-   - Canal privado criado automaticamente
-
-#### 📋 Sistema de Logs Automático
-
-Registra automaticamente em canal com "logs" no nome:
-
-**Eventos Logados:**
-- 🚪 Entrada/saída de membros
-- 🎫 Tickets criados/fechados
-- 🔵 Tickets assumidos por staff
-- 🛡️ Ações de moderação (futuro)
-
-#### 💡 Exemplo de Ticket
-
-```
-Usuário: [Reage com ⚙️]
-
-AYLA: ✅ Seu ticket foi criado! #ticket-0001
-
-[No canal #ticket-0001]
-AYLA: 🎫 Ticket #0001
-      Olá @Usuário! Descreva seu problema.
-      
-Staff: !claim
-AYLA: ✅ @Staff está atendendo este ticket!
-
-[Após resolver]
-Staff: !fechar
-AYLA: ⚠️ Ticket será fechado em 5 segundos...
-[Canal deletado]
-```
-
----# 🤖 AYLA - Seu Bot Assistente no Discord
-
 <div align="center">
 
 ![AYLA Bot](https://img.shields.io/badge/AYLA-Discord%20Bot-blueviolet?style=for-the-badge&logo=discord)
@@ -284,7 +206,81 @@ Após adicionar AYLA ao seu servidor:
 !config prefix >>
 ```
 
----
+### 🎫 Sistema de Tickets & Suporte
+
+<div align="center">
+
+#### **Sistema completo de atendimento com canais privados e logs!**
+
+</div>
+
+#### 🎟️ Para Usuários
+
+**Abrir Ticket:**
+1. Reaja com ⚙️ na mensagem de suporte
+2. Canal privado criado automaticamente
+3. Apenas você e a staff podem ver
+4. Descreva seu problema
+
+**Fechar Ticket:**
+```
+!fechar
+```
+
+#### 👮 Para Staff
+
+```
+!setupticket              Configurar sistema (Admin)
+!claim                    Assumir atendimento do ticket
+!add @usuario             Adicionar alguém ao ticket
+!remove @usuario          Remover alguém do ticket
+!tickets                  Ver todos os tickets ativos
+!fechar                   Fechar o ticket atual
+```
+
+#### ⚙️ Como Configurar
+
+1. **Criar canal de logs:**
+   - Nome sugerido: `🖨️-logs` ou qualquer canal com "logs"
+
+2. **Configurar sistema:**
+   ```
+   !setupticket
+   ```
+
+3. **Membros podem abrir tickets:**
+   - Reagem com ⚙️ na mensagem
+   - Canal privado criado automaticamente
+
+#### 📋 Sistema de Logs Automático
+
+Registra automaticamente em canal com "logs" no nome:
+
+**Eventos Logados:**
+- 🚪 Entrada/saída de membros
+- 🎫 Tickets criados/fechados
+- 🔵 Tickets assumidos por staff
+- 🛡️ Ações de moderação (futuro)
+
+#### 💡 Exemplo de Ticket
+
+```
+Usuário: [Reage com ⚙️]
+
+AYLA: ✅ Seu ticket foi criado! #ticket-0001
+
+[No canal #ticket-0001]
+AYLA: 🎫 Ticket #0001
+      Olá @Usuário! Descreva seu problema.
+      
+Staff: !claim
+AYLA: ✅ @Staff está atendendo este ticket!
+
+[Após resolver]
+Staff: !fechar
+AYLA: ⚠️ Ticket será fechado em 5 segundos...
+[Canal deletado]
+```
 
 ### 💰 Sistema de Economia
 
@@ -830,7 +826,7 @@ Ao usar AYLA, você concorda em:
 
 *Feito com amor para a comunidade Discord por **Chris França***
 
-[![Versão](https://img.shields.io/badge/Versão-1.0.0-blueviolet?style=flat-square)](https://github.com/aylabot)
+[![Versão](https://img.shields.io/badge/Versão-1.2.0-blueviolet?style=flat-square)](https://github.com/aylabot)
 [![Status](https://img.shields.io/badge/Status-Online-success?style=flat-square)](https://discord.gg/hkGUDVPRcF)
 [![Servidores](https://img.shields.io/badge/Servidores-2+-blue?style=flat-square)](https://discord.com/oauth2/authorize?client_id=1346877744746725456)
 
