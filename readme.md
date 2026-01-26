@@ -2,7 +2,7 @@
 
 ![AYLA Bot](https://img.shields.io/badge/AYLA-Discord%20Bot-blueviolet?style=for-the-badge&logo=discord)
 ![Status](https://img.shields.io/badge/Status-Online-success?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-1.5.0-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)
 
 **Bot multifuncional completo para tornar seu servidor mais divertido, organizado e interativo!**
 
@@ -294,7 +294,7 @@ Registra automaticamente em canal com "logs" no nome:
 |--------|---------|------------------|
 | 🎄 **Natal** | Dezembro | Daily 2x • Work 1.5x |
 | 🎆 **Ano Novo** | 1-7 Janeiro | Daily 3x • Mystery Box 2x |
-| 🎂 **Aniversário AYLA** | 26 Janeiro | 5k moedas grátis • Daily 5x |
+| 🎂 **Aniversário AYLA** | 26 Janeiro | 10k moedas grátis • Daily 5x |
 | 💕 **Dia dos Namorados** | 10-14 Fevereiro | +10% em transferências |
 | 🐰 **Páscoa** | Março/Abril | Caça aos ovos |
 | 🎃 **Halloween** | Outubro | Mystery Box 1.5x |
@@ -318,7 +318,7 @@ Registra automaticamente em canal com "logs" no nome:
          🎁 Bônus Ativos:
          💰 Daily: 5x moedas
          💼 Trabalho: 3x moedas
-         🎉 5.000 moedas grátis para todos!
+         🎉 10.000 moedas grátis para todos!
          
          Use !coletarbonus para receber!
 
@@ -657,7 +657,7 @@ Ao usar AYLA, você concorda em:
 
 *Feito com amor para a comunidade Discord por **Chris França***
 
-[![Versão](https://img.shields.io/badge/Versão-1.5.0-blueviolet?style=flat-square)](https://github.com/ChriisIKTZ/Ayla-BOT)
+[![Versão](https://img.shields.io/badge/Versão-1.0.0-blueviolet?style=flat-square)](https://github.com/ChriisIKTZ/Ayla-BOT)
 [![Status](https://img.shields.io/badge/Status-Online-success?style=flat-square)](https://discord.gg/hkGUDVPRcF)
 [![Servidores](https://img.shields.io/badge/Servidores-2+-blue?style=flat-square)](https://discord.com/oauth2/authorize?client_id=1346877744746725456&permissions=8&scope=bot)
 
