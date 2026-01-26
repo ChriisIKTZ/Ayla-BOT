@@ -2,7 +2,7 @@
 
 ![AYLA Bot](https://img.shields.io/badge/AYLA-Discord%20Bot-blueviolet?style=for-the-badge&logo=discord)
 ![Status](https://img.shields.io/badge/Status-Online-success?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.7.0-blue?style=for-the-badge)
 
 **Bot multifuncional completo para tornar seu servidor mais divertido, organizado e interativo!**
 
@@ -657,7 +657,7 @@ Ao usar AYLA, você concorda em:
 
 *Feito com amor para a comunidade Discord por **Chris França***
 
-[![Versão](https://img.shields.io/badge/Versão-1.0.0-blueviolet?style=flat-square)](https://github.com/ChriisIKTZ/Ayla-BOT)
+[![Versão](https://img.shields.io/badge/Versão-1.7.0-blueviolet?style=flat-square)](https://github.com/ChriisIKTZ/Ayla-BOT)
 [![Status](https://img.shields.io/badge/Status-Online-success?style=flat-square)](https://discord.gg/hkGUDVPRcF)
 [![Servidores](https://img.shields.io/badge/Servidores-2+-blue?style=flat-square)](https://discord.com/oauth2/authorize?client_id=1346877744746725456&permissions=8&scope=bot)
 
