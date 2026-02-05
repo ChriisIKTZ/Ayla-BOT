@@ -2,9 +2,9 @@
 
 ![AYLA Bot](https://img.shields.io/badge/AYLA-Discord%20Bot-blueviolet?style=for-the-badge&logo=discord)
 ![Status](https://img.shields.io/badge/Status-Online-success?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-1.7.0-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge)
 
-**Bot multifuncional completo para tornar seu servidor mais divertido, organizado e interativo!**
+**Bot multifuncional privado para tornar seu servidor mais divertido, organizado e interativo!**
 
 [Adicionar ao Servidor](#-adicionar-ao-servidor) • [Comandos](#-comandos) • [Recursos](#-recursos) • [Suporte](#-suporte)
 
@@ -12,7 +12,7 @@
 
 ### 🌟 **Por que escolher AYLA?**
 
-💰 **Sistema de Economia** | 🎂 **Aniversários** | 🛡️ **Moderação** | 🎮 **Diversão** | 🎭 **100% Grátis**
+💰 **Sistema de Economia** | 🎂 **Aniversários** | 🛡️ **Moderação** | 🎮 **Diversão** | 🏆 **Badges** | 🎭 **100% Grátis**
 
 </div>
 
@@ -20,17 +20,18 @@
 
 ## 🎯 O que é AYLA?
 
-**AYLA** é um bot Discord completo e gratuito que oferece **economia virtual**, **sistema de aniversários**, **moderação avançada** e muito mais! Perfeito para servidores de qualquer tamanho, desde comunidades pequenas até grandes servidores.
+**AYLA** é um bot Discord privado e completo que oferece **economia virtual**, **sistema de badges**, **aniversários automáticos**, **moderação avançada** e muito mais! Desenvolvido com carinho para proporcionar a melhor experiência em servidores Discord.
 
 ### ✨ Principais Recursos
 
 - 💰 **Sistema de Economia Virtual** completo com loja e inventário
+- 🏆 **Sistema de Badges** com raridades e conquistas
 - 🎂 **Celebração Automática de Aniversários** com cargo especial
 - 🛡️ **Ferramentas de Moderação** poderosas e fáceis de usar
 - 🎮 **Comandos Divertidos** para entretenimento
 - 🎫 **Sistema de Tickets** profissional para suporte
 - 🎉 **Eventos Especiais** sazonais com bônus
-- 🎭 **Status Personalizados** que mudam automaticamente
+- 🎭 **Status Personalizados** que mudam automaticamente a cada 5 minutos
 - 📊 **Rankings e Estatísticas** de membros
 - 🎁 **Sistema de Recompensas** diárias
 - 💬 **Saudações Personalizadas** e interativas
@@ -38,6 +39,7 @@
 - 📋 **Logs Automáticos** - Registre todas as ações
 - 🔧 **Prefixo Customizável** - Escolha o seu
 - 🔒 **Dados Separados** - 100% isolado por servidor
+- 💾 **Cache Inteligente** - Performance otimizada
 
 ---
 
@@ -79,6 +81,7 @@ Após adicionar AYLA ao seu servidor:
 !ajuda aniversarios       # Aniversários
 !ajuda eventos            # Eventos especiais
 !ajuda config             # Configurações (Admin)
+!ajuda badges             # Sistema de badges
 ```
 
 ### 🎯 Comandos Rápidos
@@ -95,6 +98,8 @@ Após adicionar AYLA ao seu servidor:
 !avatar @user   Ver avatar
 !serverinfo     Info do servidor
 !userinfo @user Info do usuário
+!liststatus     Ver status em rotação
+!statusatual    Status atual do bot
 ```
 
 </td>
@@ -108,11 +113,75 @@ Após adicionar AYLA ao seu servidor:
 !inventario     Seu inventário
 !evento         Evento atual
 !config         Configurações
+!badges         Suas badges
+!allbadges      Todas as badges
 ```
 
 </td>
 </tr>
 </table>
+
+---
+
+## 🏆 Sistema de Badges
+
+<div align="center">
+
+### **Colecione badges exclusivas e mostre suas conquistas!**
+
+</div>
+
+### 🎖️ Raridades de Badges
+
+| Raridade | Emoji | Cor | Descrição |
+|----------|-------|-----|-----------|
+| **ÚNICA** | 👑 | Dourado | Exclusiva do criador |
+| **LENDÁRIA** | ⭐ | Laranja | Conquistas épicas |
+| **ÉPICA** | 💜 | Roxo | Grandes feitos |
+| **RARA** | 💙 | Azul | Conquistas especiais |
+| **ANUAL** | 🎂 | Rosa | Eventos anuais |
+| **ESPECIAL** | ✨ | Amarelo | Cargos especiais |
+
+### 🎯 Badges Disponíveis
+
+#### 👑 Badges Únicas
+- **👑 Criador da AYLA** - Desenvolvedor e criador (Chris França)
+
+#### ⭐ Badges Lendárias
+- **💎 Milionário** - Acumule 1.000.000 de moedas
+- **🏆 OG** - Seja um dos primeiros 100 membros
+- **⭐ Membro Oficial** - Entre no servidor oficial da AYLA
+
+#### 💜 Badges Épicas
+- **💰 Rico** - Acumule 100.000 de moedas
+- **🎖️ Veterano** - Permaneça 1 ano no servidor
+- **🎉 Caçador de Eventos** - Participe de 10 eventos
+- **🧪 Beta Tester** - Teste recursos beta
+- **💜 VIP** - Membro VIP do servidor oficial
+
+#### 💙 Badges Raras
+- **🛍️ Comprador Compulsivo** - Compre 50 itens na loja
+- **⚡ Membro Ativo** - Envie 1000 mensagens
+- **💝 Apoiador** - Apoie o desenvolvimento
+- **🐛 Caçador de Bugs** - Reporte 5 bugs importantes
+- **🤝 Ajudante** - Ajude 50+ membros
+
+#### 🎂 Badges Anuais
+- **🎂 Amigo da AYLA 2025/2026** - Deseje parabéns no dia 26/01
+- **🐰 Caçador de Ovos 2025** - Encontre 50 ovos na Páscoa
+
+#### ✨ Badges Especiais
+- **🛡️ Moderador** - Membro da equipe de moderação
+- **👮 Staff Oficial** - Equipe oficial da AYLA
+- **🤝 Parceiro** - Servidor parceiro oficial
+
+### 💡 Comandos de Badges
+
+```
+!badges                   Ver suas badges
+!allbadges                Ver todas as badges disponíveis
+!badge [nome]             Detalhes de uma badge específica
+```
 
 ---
 
@@ -132,7 +201,7 @@ Após adicionar AYLA ao seu servidor:
 + !transferir @user [qtd]   Envie moedas para amigos
 ```
 
-**Cooldowns:** Daily (24h) • Trabalhar (4h)
+**Cooldowns:** Daily (24h) • Trabalhar (1h)
 
 ### 🛍️ Loja Virtual
 
@@ -155,22 +224,6 @@ Após adicionar AYLA ao seu servidor:
 | 🎁 **Caixa Misteriosa** | 💰 1.000 | 500-5000 moedas aleatórias | Instantâneo |
 | 🛡️ **Proteção Anti-Roubo** | 💰 1.500 | Proteja suas moedas | 7 dias |
 
-### 💡 Exemplo de Uso
-
-```
-👤 Usuário: !daily
-🤖 AYLA: 🎁 Você ganhou 350 moedas! Volte amanhã!
-
-👤 Usuário: !trabalhar
-🤖 AYLA: 💼 Você trabalhou como programador e ganhou 680 moedas!
-
-👤 Usuário: !comprar vip
-🤖 AYLA: ✅ Você comprou 👑 Cargo VIP! Aproveite por 7 dias!
-
-👤 Usuário: !rank
-🤖 AYLA: [Mostra top 10 mais ricos do servidor]
-```
-
 ---
 
 ## 🎂 Sistema de Aniversários
@@ -188,6 +241,8 @@ Após adicionar AYLA ao seu servidor:
 !meuniver                    Ver quando é seu aniversário
 !aniversarios                Ver próximos aniversários
 !removeraniver               Remover seu aniversário
+!proximosnivers              Ver próximos 5 aniversários
+!forcaraniver                Forçar verificação (Admin)
 ```
 
 ### 🎊 O que acontece no seu aniversário?
@@ -197,24 +252,17 @@ Após adicionar AYLA ao seu servidor:
 1. 🎂 Você recebe o cargo **"🎂 Aniversariante"** (cor dourada)
 2. 📢 Anúncio público no canal com "geral" marcando @everyone
 3. 🎁 Embed especial com sua foto, idade e parabéns
-4. ⏰ No dia seguinte, o cargo é removido automaticamente
+4. 💰 **5.000 moedas** de presente
+5. 💌 Mensagem privada especial
+6. ⏰ No dia seguinte, o cargo é removido automaticamente
 
-### 💡 Exemplo
+### ⚙️ Sistema Automatizado
 
-```
-👤 Usuário: !aniversario 26/01/2000
-🤖 AYLA: 🎂 Aniversário cadastrado!
-         📅 Data: 26/01/2000
-         🎈 Idade: 26 anos
-         A AYLA vai te parabenizar no dia! 🎉
-
-[No dia 26/01, à meia-noite]
-🤖 AYLA: @everyone
-         🎉 FELIZ ANIVERSÁRIO! 🎉
-         Hoje é aniversário de @Usuário!
-         🎂 Idade: 26 anos
-         👑 Ganhou o cargo de Aniversariante!
-```
+- ✅ Verificação diária à meia-noite
+- ✅ Remoção automática de cargos expirados
+- ✅ Validação de idade (13+ anos)
+- ✅ Cálculo automático de idade
+- ✅ Criação automática de cargo se não existir
 
 ---
 
@@ -260,24 +308,6 @@ Registra automaticamente em canal com "logs" no nome:
 - 🔵 Tickets assumidos por staff
 - 🛡️ Ações de moderação
 
-### 💡 Fluxo de Atendimento
-
-```
-👤 Usuário: [Reage com ⚙️]
-🤖 AYLA: ✅ Ticket #0001 criado!
-
-[No canal privado #ticket-0001]
-🤖 AYLA: 🎫 Olá @Usuário! Descreva seu problema.
-
-👮 Staff: !claim
-🤖 AYLA: ✅ @Staff assumiu este ticket!
-
-[Após resolver]
-👮 Staff: !fechar
-🤖 AYLA: ⚠️ Ticket será fechado em 5 segundos...
-         [Canal deletado + log salvo]
-```
-
 ---
 
 ## 🎉 Eventos Especiais
@@ -295,7 +325,7 @@ Registra automaticamente em canal com "logs" no nome:
 | 🎄 **Natal** | Dezembro | Daily 2x • Work 1.5x |
 | 🎆 **Ano Novo** | 1-7 Janeiro | Daily 3x • Mystery Box 2x |
 | 🎂 **Aniversário AYLA** | 26 Janeiro | 10k moedas grátis • Daily 5x |
-| 💕 **Dia dos Namorados** | 10-14 Fevereiro | +10% em transferências |
+| 💕 **Dia dos Namorados** | 10-14 Junho | +10% em transferências |
 | 🐰 **Páscoa** | Março/Abril | Caça aos ovos |
 | 🎃 **Halloween** | Outubro | Mystery Box 1.5x |
 | 🛍️ **Black Friday** | 20-30 Novembro | 25% desconto na loja |
@@ -308,23 +338,48 @@ Registra automaticamente em canal com "logs" no nome:
 !coletarbonus             Coletar bônus especial
 ```
 
-### 💡 Exemplo de Evento
+---
+
+## 🎭 Sistema de Status Dinâmicos
+
+<div align="center">
+
+### **Status que mudam automaticamente a cada 5 minutos!**
+
+</div>
+
+### 🔄 Funcionalidades
+
+- ⏰ **Rotação Automática** - Muda a cada 5 minutos
+- 🎊 **Status Sazonais** - Durante eventos especiais
+- 🎯 **100% Automático** - Sem intervenção manual
+- 📊 **Estatísticas** - Veja todos os status em rotação
+
+### 🎨 Tipos de Status
+
+- 🎮 **Jogando** - "/ajuda para comandos", "Hytale ⚔️"
+- 👀 **Assistindo** - Durante eventos
+- 🎵 **Ouvindo** - Durante eventos
+
+### 💡 Comandos de Status
 
 ```
-👤 Usuário: !evento
-🤖 AYLA: 🎂 Aniversário da AYLA
-         Hoje é meu aniversário! Comemorem comigo!
-         
-         🎁 Bônus Ativos:
-         💰 Daily: 5x moedas
-         💼 Trabalho: 3x moedas
-         🎉 10.000 moedas grátis para todos!
-         
-         Use !coletarbonus para receber!
-
-👤 Usuário: !coletarbonus
-🤖 AYLA: 🎉 Você ganhou 10.000 moedas! Obrigada por comemorar comigo! 💜
+!liststatus               Ver todos os status
+!statusatual              Ver status atual
+!forcarstatus             Forçar mudança (Admin)
+!addstatus [tipo] [texto] Adicionar status (Admin)
 ```
+
+### 🎊 Status Sazonais
+
+Durante eventos especiais, AYLA usa **apenas** status temáticos:
+
+- 🎄 **Natal:** "Feliz Natal 🎄", "Secret Santa 🎅"
+- 🎆 **Ano Novo:** "Fogos de Artifício 🎆", "2025 começando ✨"
+- 🎂 **Aniversário AYLA:** "É MEU ANIVERSÁRIO! 🎂"
+- 💕 **Namorados:** "músicas românticas 💘"
+- 🐰 **Páscoa:** "Caça aos Ovos 🐰"
+- 🎃 **Halloween:** "Doces ou Travessuras 🎃"
 
 ---
 
@@ -390,70 +445,24 @@ Registra automaticamente em canal com "logs" no nome:
 | **welcome** | Mensagens de boas-vindas | ✅ Ativo |
 | **status** | Status personalizados | ✅ Ativo |
 
-### 💡 Exemplos de Uso
-
-```bash
-# Ver configurações
-!config
-
-# Desativar economia
-!config toggle economy
-
-# Mudar prefixo
-!config prefix ?
-
-# Configurar logs
-!config channel logs #logs
-
-# Resetar tudo
-!config reset
-```
-
-### 🎯 Cenários de Uso
-
-**Servidor Pequeno (Casual):**
-```bash
-!config toggle economy      # Desativa
-!config toggle tickets      # Desativa
-# Mantém apenas diversão básica
-```
-
-**Servidor Grande (Completo):**
-```bash
-# Tudo ativo por padrão
-!config channel logs #logs
-!setupticket
-```
-
-**Servidor Corporativo:**
-```bash
-!config toggle economy      # Desativa diversão
-!config toggle tickets      # Ativa para suporte
-!config prefix >>
-```
-
 ---
 
-## 🎭 Recursos Especiais
+## 💻 Recursos Técnicos
 
-### 💬 Saudações Personalizadas
+### 🚀 Performance
 
-AYLA responde diferente baseado na hora:
+- 💾 **Cache Inteligente** - Reduz operações de I/O
+- ⚡ **Otimizado** - Respostas rápidas
+- 🔄 **Async/Await** - Operações assíncronas
+- 📊 **Monitoramento** - Estatísticas de cache e performance
 
-- ☀️ **Manhã (5h-12h):** "Bom dia! ☕"
-- 🌤️ **Tarde (12h-18h):** "Boa tarde!"
-- 🌙 **Noite (18h-5h):** "Boa noite! 😴"
+### 🛡️ Segurança
 
-**Mais de 30 variações!** Às vezes você recebe uma saudação especial surpresa! 🎉
-
-### 🎨 Status Dinâmicos
-
-AYLA muda seu status automaticamente a cada 5 minutos:
-- 🎮 Jogando: "!ajuda para comandos"
-- 👀 Assistindo: "🏴‍☠️ One Piece"
-- 🎵 Ouvindo: "Spotify"
-
-*Use `!liststatus` para ver todos os status*
+- ✅ **Validação de Inputs** - Proteção contra SQL injection
+- ✅ **Sanitização** - Limpeza de dados
+- ✅ **Rate Limiting** - Proteção contra spam
+- ✅ **Dados Separados** - Isolamento por servidor
+- ✅ **Logs Detalhados** - Rastreamento de ações
 
 ---
 
@@ -466,6 +475,12 @@ Sim! 100% gratuita e sempre será. Sem planos pagos ou taxas.
 </details>
 
 <details>
+<summary><b>🔒 Posso baixar o código da AYLA?</b></summary>
+
+Não. AYLA é um bot privado desenvolvido exclusivamente para uso nos servidores onde está presente. Não é open-source e não está disponível para download.
+</details>
+
+<details>
 <summary><b>💰 As moedas têm valor real?</b></summary>
 
 Não! O sistema de economia é virtual e apenas para diversão.
@@ -474,7 +489,7 @@ Não! O sistema de economia é virtual e apenas para diversão.
 <details>
 <summary><b>🔒 AYLA armazena dados pessoais?</b></summary>
 
-Apenas: ID Discord, saldo de moedas, data de aniversário (opcional) e inventário. Dados separados por servidor.
+Apenas: ID Discord, saldo de moedas, data de aniversário (opcional), inventário e badges. Dados separados por servidor.
 </details>
 
 <details>
@@ -496,17 +511,23 @@ Não! Qualquer canal com "geral" no nome funciona. Ex: "💬-geral", "geral-chat
 </details>
 
 <details>
-<summary><b>🔧 Posso desativar funcionalidades?</b></summary>
-
-Sim! Use `!config toggle [feature]`
-</details>
-
-<details>
 <summary><b>🎫 Como configuro tickets?</b></summary>
 
 1. Crie canal com "logs" no nome
 2. Use `!setupticket`
 3. Pronto! Membros podem reagir com ⚙️
+</details>
+
+<details>
+<summary><b>🎭 Como funcionam os status dinâmicos?</b></summary>
+
+AYLA muda automaticamente seu status a cada 5 minutos. Durante eventos especiais, usa apenas status temáticos!
+</details>
+
+<details>
+<summary><b>🏆 Como ganho badges?</b></summary>
+
+Badges são conquistadas automaticamente ao atingir marcos (moedas, atividade, eventos) ou manualmente por admins/staff.
 </details>
 
 ---
@@ -519,9 +540,11 @@ Sim! Use `!config toggle [feature]`
 |---------|-------|
 | 🌐 **Servidores Ativos** | 2+ |
 | 👥 **Usuários Alcançados** | 50+ |
-| 💬 **Comandos Executados** | 10.000+ |
+| 💬 **Comandos Executados** | 15.000+ |
 | 🎂 **Aniversários Celebrados** | 1+ |
-| 💰 **Moedas em Circulação** | 100.000+ |
+| 💰 **Moedas em Circulação** | 150.000+ |
+| 🏆 **Badges Coletadas** | 25+ |
+| 🎭 **Status Diferentes** | 15+ |
 
 </div>
 
@@ -532,12 +555,11 @@ Sim! Use `!config toggle [feature]`
 ### 🚀 Próximas Funcionalidades
 
 #### 🔜 Em Desenvolvimento
-- [ ] 🎮 **Minigames** - Blackjack, Jogo da Velha
 - [ ] 📈 **Sistema de Níveis** - XP por mensagens
-- [ ] 🎵 **Player de Música** - YouTube e Spotify
+- [ ] 🏆 **Mais Badges** - Novas conquistas
 
 #### 📋 Planejado
-- [ ] 🏆 **Conquistas** - Badges especiais
+- [ ] 🏆 **Sistema de Conquistas** completo
 - [ ] 🌐 **Dashboard Web** - Gerenciar pelo navegador
 - [ ] 💝 **Sistema de Casamento** - Roleplay
 - [ ] 📸 **Gerador de Memes**
@@ -546,7 +568,7 @@ Sim! Use `!config toggle [feature]`
 #### 💭 Considerando
 - [ ] 🌍 **Multi-idioma** - Inglês e Espanhol
 - [ ] 🔔 **Lembretes Personalizados**
-- [ ] 📊 **Analytics Avançado**
+- [ ] 🎨 **Customização de Embeds**
 
 ---
 
@@ -580,13 +602,13 @@ Sim! Use `!config toggle [feature]`
 
 <div align="center">
 
-> *"AYLA transformou nosso servidor! O sistema de economia mantém todos engajados."*  
+> *"AYLA transformou nosso servidor! O sistema de badges mantém todos engajados."*  
 > **— Admin do servidor VOID**
 
-> *"Nunca mais esqueci um aniversário! Todos adoram o cargo especial."*  
+> *"Nunca mais esqueci um aniversário! O sistema automático é perfeito."*  
 > **— Moderadora do servidor da Vihh**
 
-> *"Bot completo e totalmente grátis. Recomendo!"*  
+> *"Bot completo e totalmente grátis. Os status dinâmicos são incríveis!"*  
 > **— Owner do servidor BeyondLands**
 
 ### ⭐⭐⭐⭐⭐ 4.9/5
@@ -609,6 +631,7 @@ Sim! Use `!config toggle [feature]`
 - 💡 **Sugestões**
 - 🎉 **Comunidade** ativa
 - 📚 **Tutoriais**
+- 🏆 **Badges Exclusivas**
 
 </div>
 
@@ -618,12 +641,13 @@ Sim! Use `!config toggle [feature]`
 
 AYLA respeita sua privacidade:
 
-- ✅ Armazenamos apenas dados necessários (ID, moedas, aniversário, inventário)
+- ✅ Armazenamos apenas dados necessários (ID, moedas, aniversário, inventário, badges)
 - ✅ Não vendemos ou compartilhamos dados
 - ✅ Não coletamos mensagens privadas
 - ✅ Você pode solicitar remoção de dados
 - ✅ Conformidade com LGPD e GDPR
 - ✅ Dados criptografados e seguros
+- ✅ Cache temporário para performance
 
 ---
 
@@ -636,6 +660,7 @@ Ao usar AYLA, você concorda em:
 - ✅ Respeitar outros usuários
 - ✅ Não usar para spam ou atividades ilegais
 - ✅ Seguir os [Termos do Discord](https://discord.com/terms)
+- ✅ Respeitar que o bot é privado e proprietário
 
 **Violações = banimento permanente**
 
@@ -649,18 +674,25 @@ Ao usar AYLA, você concorda em:
 
 [![Adicionar AYLA](https://img.shields.io/badge/➕_ADICIONAR_AYLA_AGORA-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1346877744746725456&permissions=8&scope=bot)
 
-**Instalação em 30 segundos • 100% Gratuito • Sem complicação**
+**Instalação em 30 segundos • 100% Gratuito • Bot Privado**
 
 ---
 
 ### 💜 Obrigado por escolher AYLA!
 
-*Feito com amor para a comunidade Discord por **Chris França***
+*Desenvolvido com amor por **Chris França***
 
-[![Versão](https://img.shields.io/badge/Versão-1.7.0-blueviolet?style=flat-square)](https://github.com/ChriisIKTZ/Ayla-BOT)
+[![Versão](https://img.shields.io/badge/Versão-2.0.0-blueviolet?style=flat-square)](https://github.com/ChriisIKTZ/Ayla-BOT)
 [![Status](https://img.shields.io/badge/Status-Online-success?style=flat-square)](https://discord.gg/hkGUDVPRcF)
 [![Servidores](https://img.shields.io/badge/Servidores-2+-blue?style=flat-square)](https://discord.com/oauth2/authorize?client_id=1346877744746725456&permissions=8&scope=bot)
+[![Privado](https://img.shields.io/badge/Bot-Privado-red?style=flat-square)](https://discord.gg/hkGUDVPRcF)
 
 **[Servidor Oficial](https://discord.gg/hkGUDVPRcF)** • **[Suporte](https://discord.gg/xYPd2bKmPr)** • **[Adicionar Bot](https://discord.com/oauth2/authorize?client_id=1346877744746725456&permissions=8&scope=bot)**
+
+---
+
+### 🔒 Sobre o Bot Privado
+
+**AYLA** é um projeto pessoal desenvolvido exclusivamente para uso próprio e em servidores selecionados. O código-fonte não está disponível para download ou modificação. Se você deseja usar AYLA em seu servidor, basta adicioná-la através do link de convite acima!
 
 </div>
